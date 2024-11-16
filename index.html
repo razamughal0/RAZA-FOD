@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAZA FOOD</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body id="body">
+
+
+  <div class="navbar5">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"> <img src="images/Small-logo-removebg-preview.png" width="100px" height="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link link3" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link3" aria-current="page" href="aboutus.html">About Us</a>
+              </li>
+
+              <li class="nav-item dropdown nav-link2">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resturant features
+                </a>
+                <ul class="dropdown-menu bg-danger">
+                  <li><a class="dropdown-item" href="#">Fine dine</a></li>
+                  <li><a class="dropdown-item" href="#">Our dining room</a></li>
+                  <li><a class="dropdown-item" href="#">Air condition</a></li>
+                  <li><a class="dropdown-item" href="#">Funland</a></li>
+              
+                </ul>
+              </li>
+              
+
+
+
+              
+              <li class="nav-item">
+                <a class="nav-link link3" href="#">Menu</a>
+              </li>
+              <li class="nav-item dropdown nav-link2">
+                <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Private Events
+                </a>
+                <ul class="dropdown-menu bg-danger">
+                  <li><a class="dropdown-item" href="#">Birthday Party</a></li>
+                  <li><a class="dropdown-item" href="#">Wedding</a></li>
+                  <li><a class="dropdown-item" href="#">Holidays Party</a></li>
+                  <li><a class="dropdown-item" href="#">Corporate Event</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">And Much More</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+
+
+
+<button style="border: 2px solid black; background-color: rgb(158, 11, 11); color: aliceblue; border: none;" type="button" class="btn btn6 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Book a Table
+</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Book a Table</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="bookingForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" id="name" class="form-control" required placeholder="Enter your full name">
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control" required placeholder="Enter your email">
+          </div>
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" id="phone" class="form-control" required placeholder="Enter your phone number">
+          </div>
+
+          <div class="mb-3">
+            <label for="time" class="form-label">Password</label>
+            <input type="password" placeholder="Enter your password " id="time" class="form-control" required>
+          </div>
+
+          
+<div class="mb-3">
+
+
+</div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" form="bookingForm" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn text-white border border-white border-2" type="submit">Search</button>
+            </form>
+          </div>
+
+          
+        </div>
+      </nav>
+    </div>
+
+
+  <div id="printLogin"></div>
+  <main id="mainCon">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images\892f12f0-fb81-11ed-9cfc-13924e99eefd-DUO-Box-1920x420_desktop_image-2023-05-26045528.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images\88d05120-fb81-11ed-919a-ef9f5e8ff903-Equity-Banner-1920x420_desktop_image-2023-05-26045528.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+    <span id="LeftBtn">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+    </span>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+  <button class="reorder">
+    REORDER
+  </button>
+
+
+   
+  
+  <p class="menuHead">
+    <span class="under text-white">EXPLORE MENU</span>
+  </p>
+  <div class="main">
+    <div class="cardsRoud">
+      <div class="imgecontont">
+        <img class="img" src="images\afc4e8b0-ff99-11ed-8640-872ee63b5da0-Krunch-2023-05-31095826.png" alt="">
+
+      </div>
+      <h6 class="value">Everyday value</h6>
+      <hr class="hafhr">
+      <div class="right">
+        <i class="fa-solid fa-circle fa-sm" style="color: #f1f3f6;"></i>
+      </div>
+    </div>
+
+    <div class="cardsRoud">
+      <div class="imgecontont">
+        <img class="img" src="images\afc4e8b0-ff99-11ed-8640-872ee63b5da0-alacart-2023-05-31095826.png" alt="">
+
+      </div>
+      <h6 class="value">Ala-Carte-&-Combos</h6>
+      <hr class="hafhr">
+      <div class="right">
+        <i class="fa-solid fa-circle fa-sm" style="color: #f1f3f6;"></i>
+      </div>
+    </div>
+
+    <div class="cardsRoud">
+      <div class="imgecontont">
+        <img class="img" src="images\afc536d0-ff99-11ed-a006-17c81341cbe8-Signaturebox-2023-05-31095826.png" alt="">
+
+      </div>
+      <h6 class="value">Signature-Boxes</h6>
+      <hr class="hafhr">
+      <div class="right">
+        <i class="fa-solid fa-circle fa-sm" style="color: #f1f3f6;"></i>
+      </div>
+    </div>
+
+    <div class="cardsRoud">
+      <div class="imgecontont">
+        <img class="img" src="images\afc4e8b0-ff99-11ed-8640-872ee63b5da0-Sharing-2023-05-31095826.png" alt="">
+
+      </div>
+      <h6 class="value">Sharing</h6>
+      <hr class="hafhr">
+      <div class="right">
+        <i class="fa-solid fa-circle fa-sm" style="color: #f1f3f6;"></i>
+      </div>
+    </div>
+
+    <div class="cardsRoud">
+      <div class="imgecontont">
+        <img class="img" src="images\afc4e8b0-ff99-11ed-8640-872ee63b5da0-Snacks-2023-05-31095826.png" alt="">
+
+      </div>
+      <h6 class="value">Snacks-&-Beverages</h6>
+      <hr class="hafhr">
+      <div class="right">
+        <i class="fa-solid fa-circle fa-sm" style="color: #f1f3f6;"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="bestSeller text-white"><span class="under text-white"> BEST SELLERS</span></h3>
+  <div class="flexs overflow-auto">
+    <div class="overflow">
+      <div class="mainRebben">
+        <div class="redRibben"></div>
+        <div class="redRibben left"></div>
+        <div class="redRibben left"></div>
+      </div>
+      <h6 class="cardhead">Krunch Burger</h6>
+      <div class="price">
+        <div class="arrow-right">
+        </div>
+        <p class="prices"><sub> Rs</sub>250</p>
+      </div>
+      <img class="cardImag" height="280px"
+        src="images\43a9fb50-ffaa-11ed-8180-812e571998fe-krunch_variant_0-2023-05-31115706.png" alt="">
+    </div>
+
+
+    <div class="overflow">
+      <div class="mainRebben">
+        <div class="redRibben"></div>
+        <div class="redRibben left"></div>
+        <div class="redRibben left"></div>
+      </div>
+      <h6 class="cardhead">Krunch Burger</h6>
+      <div class="price">
+        <div class="arrow-right">
+        </div>
+        <p class="prices"><sub> Rs</sub>250</p>
+      </div>
+      <img class="cardImag" height="280px"
+        src="images\43a9fb50-ffaa-11ed-8180-812e571998fe-krunch_variant_0-2023-05-31115706.png" alt="">
+    </div>
+    <div class="overflow">
+      <div class="mainRebben">
+        <div class="redRibben"></div>
+        <div class="redRibben left"></div>
+        <div class="redRibben left"></div>
+      </div>
+      <h6 class="cardhead">Hot Wings Bucket</h6>
+      <div class="price">
+        <div class="arrow-right">
+        </div>
+        <p class="prices"><sub> Rs</sub>550</p>
+      </div>
+      <img class="cardImag" height="280px"
+        src="images\43a9fb50-ffaa-11ed-8180-812e571998fe-HotWings_variant_0-2023-05-31115706.png" alt="">
+    </div>
+
+    <div class="overflow">
+      <div class="mainRebben">
+        <div class="redRibben"></div>
+        <div class="redRibben left"></div>
+        <div class="redRibben left"></div>
+      </div>
+      <h6 class="cardhead">Mighty Zinger</h6>
+      <div class="price">
+        <div class="arrow-right">
+        </div>
+        <p class="prices"><sub> Rs</sub>680</p>
+      </div>
+      <img class="cardImag" height="280px"
+        src="images\33685b40-0461-11ee-911c-497570899609-Mighty_variant_0-2023-06-06115641.png" alt="">
+    </div>
+
+    <div class="overflow">
+      <div class="mainRebben">
+        <div class="redRibben"></div>
+        <div class="redRibben left"></div>
+        <div class="redRibben left"></div>
+      </div>
+      <h6 class="cardhead">Krunch Combo</h6>
+      <div class="price">
+        <div class="arrow-right">
+        </div>
+        <p class="prices"><sub> Rs</sub>490</p>
+      </div>
+      <img class="cardImag" height="280px"
+        src="images\43a9fb50-ffaa-11ed-8180-812e571998fe-crunch-with-fries-and-drink-2023-05-31115706.png" alt="">
+    </div>
+  </div>
+
+
+<!-- 
+        - #FOOD MENU
+      -->
+
+
+
+
+      <p class="menuHead">
+        <span class="under text-white">OUR DELICIOUS FOOD</span>
+      </p>
+
+      <div class="row ">
+        <div class="row row-cols-3">
+      
+          <div class="col">
+
+          <ul class="food-menu-list">
+
+            <li>
+              <div class="food-menu-card menu">
+
+                <div class="card-banner">
+                  <img src="images/food-menu-1.png" width="300" height="300" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100">
+
+                  <div class="badge">-15%</div>
+
+                </div>
+
+                <div class="wrapper text-white">
+                  <p class="category">Chicken</p>
+
+                  <div class="rating-wrapper text-white">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title text-white ">Fried Chicken Unlimited</h3>
+
+                <div class="price-wrapper text-white">
+
+                  <p class="price-text text-white">Price:</p>
+
+                  <data class="price text-white">$49.00</data>
+
+                  <del class="del text-white" value="69.00">$69.00</del>
+
+                </div>
+              </div>
+              </div>
+            </li>
+
+
+            <div class="col">
+            <li>
+              <div class="food-menu-card text-white menu">
+
+                <div class="card-banner">
+                  <img src="images/food-menu-2.png" width="300" height="300" loading="lazy"
+                    alt="Burger King Whopper" class="w-100">
+
+                  <div class="badge">-10%</div>
+
+                  
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Noddles</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Burger King Whopper</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="29.00">$29.00</data>
+
+                  <del class="del">$39.00</del>
+
+                </div>
+
+              </div>
+            </li></div>
+
+<div class="col">
+
+            <li>
+              <div class="food-menu-card text-white menu">
+
+                <div class="card-banner">
+                  <img src="images/food-menu-3.png" width="300" height="300" loading="lazy"
+                    alt="White Castle Pizzas" class="w-100">
+
+                  <div class="badge">-25%</div>
+
+             
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Pizzas</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">White Castle Pizzas</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">$49.00</data>
+
+                  <del class="del">$69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+          </div>
+
+
+          <div class="col">
+            <li>
+              <div class="food-menu-card text-white menu">
+
+                <div class="card-banner">
+                  <img src="images/food-menu-4.png" width="300" height="300" loading="lazy"
+                    alt="Bell Burrito Supreme" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Burrito</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Bell Burrito Supreme</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="59.00 ">$59.00</data>
+
+                  <del class="del">$69.00</del>
+
+                </div>
+
+              </div>
+            </li></div>
+
+
+<div class="col">
+
+            <li>
+              <div class="food-menu-card text-white menu">
+
+                <div class="card-banner">
+                  <img src="images/food-menu-5.png" width="300" height="300" loading="lazy"
+                    alt="Kung Pao Chicken BBQ" class="w-100">
+
+                  <div class="badge">-5%</div>
+
+                
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Nuggets</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Kung Pao Chicken BBQ</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">$49.00</data>
+
+                  <del class="del">$69.00</del>
+
+                </div>
+
+              </div>
+            </li></div>
+
+<div class="col">
+
+            <li>
+              <div class="food-menu-card text-white menu">
+
+                <div class="card-banner ">
+                  <img src="images/food-menu-6.png" width="300" height="300" loading="lazy"
+                    alt="Wendy's Chicken" class="w-100">
+
+                  <div class="badge">-15%</div>
+
+                 
+                </div>
+
+                <div class="wrapper ">
+                  <p class="category">Chicken</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Wendy's Chicken</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">$49.00</data>
+
+                  <del class="del">$69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+
+<!-- About Section -->
+<section class="about">
+  <div class="container">
+      <h2>About Us</h2>
+      <p>RAZA FOOD, was founded by m.Raza Mughal in 2000 and has since become one of the largest fast-food chains in the world. Known for its signature fried chicken recipe with 11 secret herbs and spices, KFC has provided delicious meals to millions across the globe.</p>
+
+      <div class="about-content">
+          <div class="about-text">
+              <h3>Our Commitment to Quality</h3>
+              <p>At RAZA FOOD, we are committed to serving the highest quality food. Our chickens are always fresh, never frozen, and are prepared using only the finest ingredients. Each meal is made with care and is crafted to provide a satisfying and memorable dining experience.</p>
+          </div>
+          <div class="about-text">
+              <h3>Global Reach, Local Touch</h3>
+              <p>With over 24,000 locations worldwide, we serve diverse cultures and cater to local tastes. Whether it’s our crispy fried chicken, tender chicken tenders, or other regional specialties, RAZA FOOD global presence ensures that great food is always within reach.</p>
+          </div>
+      </div>
+
+      <h3>Our Mission & Vision</h3>
+      <p>Our mission is simple: to provide delicious, high-quality food that everyone can enjoy. KFC strives to be the leader in the quick-service restaurant industry by staying true to our core values: quality, integrity, and customer satisfaction. We aim to expand our brand while maintaining the same level of excellence that our customers have come to know and love.</p>
+  </div>
+</section>
+
+
+<!-- Contact Start -->
+
+<section>
+  <div class="contactUs" id="contactUs">
+    <div class="container ">
+      <h2 class="text-white">Contact Us</h2>
+      <div class="contact-info text-white">
+        <div class="contact-item">
+          <h3>Booking</h3>
+          <p>
+            <i class="fa fa-envelope-open"></i>
+            razamughal@gmail.com
+          </p>
+        </div>
+        <div class="contact-item">
+          <h3>General</h3>
+          <p>
+            <i class="fa fa-envelope-open"></i>
+            razamughal@gmail.com
+          </p>
+        </div>
+        <div class="contact-item">
+          <h3>Technical</h3>
+          <p>
+            <i class="fa fa-envelope-open"></i>
+            razamughal@gmail.com
+          </p>
+        </div>
+      </div>
+      <div class="contactWrapper">
+        <div class="mapLeftSide">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115842.91864648179!2d66.84870109726563!3d24.860734300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f1f568bd9e5%3A0xd4cb6bde404d9c2f!2sRaza%20Foods!5e0!3m2!1sen!2s!4v1731726769524!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="formRightSide ">
+          <form id="contactForm">
+            <div class="form-flex">
+              <div class="nameAndEmailWrapper">
+                <div class="form-item">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder=" "
+                    />
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                <div class="form-item">
+                  <div class="form-floating">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder=" "
+                    />
+                    <label for="email">Your Email</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-item">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder=" "
+                  />
+                  <label for="subject">Subject</label>
+                </div>
+              </div>
+              <div class="form-item">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder=" "
+                    id="message"
+                    style="height: 145px"
+                  ></textarea>
+                  <label for="message">Message</label>
+                </div>
+              </div>
+              <div class="form-item">
+                <button id="contactBtn" class="contactBtn" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  </div>
+  <div class="footer">
+    <div class="center">
+      <img src="images/Small-logo-removebg-preview.png" alt="raza Food" width="70px" >
+      <i class="fa-brands fooIcon fa-youtube" style="color: #e91c3a;"></i>
+      <i class="fa-brands margin fa-instagram"></i>
+      <i class="fa-brands margin fa-facebook-f" style="color: #3067c7;"></i>
+    </div>
+    <div class="fooTr">
+      <ul class="decoration">
+        <li>
+          <a class="linkFoo" href="#">About Us</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Mitao Bhook</a>
+        </li>
+       
+        <li>
+          <a class="linkFoo" href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Careers</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#"> <h5> 2024 RAZA FOOD. All rights reserved</h5></a>
+        </li>
+
+      </ul>
+      <ul class="decoration">
+        <li>
+          <a class="linkFoo" href="#">Contact Us</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Store Locator</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Track Order</a>
+        </li>
+      </ul>
+      <ul class="decoration">
+        <li>
+          <a class="linkFoo" href="#">Terms & Conditions</a>
+        </li>
+      </ul>
+      <ul class="decoration">
+        <li>
+          <img class="fooImgBtn" src="images/download (1).png" alt="Button img">
+        </li>
+        <br>
+        <li>
+          <img class="fooImgBtn" src="images/download (2).png" alt="Button img">
+        </li><br>
+        <li class="text-white">
+
+          <h5 class="text-danger">Powered By</h5>
+          <p>M.Raza Mughal</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+    
+  </div>
+
+</main>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
